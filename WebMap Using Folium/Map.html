@@ -1,0 +1,2584 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b0e5d1198aae49b291d8a140fbf5322b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b0e5d1198aae49b291d8a140fbf5322b" ></div>
+        
+</body>
+<script>    
+    
+            var map_b0e5d1198aae49b291d8a140fbf5322b = L.map(
+                "map_b0e5d1198aae49b291d8a140fbf5322b",
+                {
+                    center: [32.5, -99.09],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    titles: "Mapbox Bright",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5b0ace00ba0545268a6e4838ea25f0c5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b0e5d1198aae49b291d8a140fbf5322b);
+        
+    
+            var feature_group_59152534b4c149baa03e8e20baaa1985 = L.featureGroup(
+                {}
+            ).addTo(map_b0e5d1198aae49b291d8a140fbf5322b);
+        
+    
+            var marker_57b5b523c8a94e9491fe5d1f1d50a4bc = L.marker(
+                [40.265862299999995, -75.22844070000001],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_14e40f35bef24695b3fb54bd766bd43c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_57b5b523c8a94e9491fe5d1f1d50a4bc.setIcon(icon_14e40f35bef24695b3fb54bd766bd43c);
+        
+    
+        var popup_fed0f6b3f79842d2ad3a692c36a927b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92dcd4ad197149e5a46c9a2600493d1f = $(`<div id="html_92dcd4ad197149e5a46c9a2600493d1f" style="width: 100.0%; height: 100.0%;">W BUTLER AVE & COUNTY LINE RD</div>`)[0];
+            popup_fed0f6b3f79842d2ad3a692c36a927b2.setContent(html_92dcd4ad197149e5a46c9a2600493d1f);
+        
+
+        marker_57b5b523c8a94e9491fe5d1f1d50a4bc.bindPopup(popup_fed0f6b3f79842d2ad3a692c36a927b2)
+        ;
+
+        
+    
+    
+            var marker_600aab0dfd1d4587bb9c4e0b176ebf5b = L.marker(
+                [40.2147619, -75.55855749999999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_afdec18ac3924186b6d1d89f5e4c6d0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_600aab0dfd1d4587bb9c4e0b176ebf5b.setIcon(icon_afdec18ac3924186b6d1d89f5e4c6d0f);
+        
+    
+        var popup_ffab2c53a2d74618ba5b7be2ea15db83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_731a658ee1614e1385bdc67b3d6095df = $(`<div id="html_731a658ee1614e1385bdc67b3d6095df" style="width: 100.0%; height: 100.0%;">ASPEN DR & MAIN ST</div>`)[0];
+            popup_ffab2c53a2d74618ba5b7be2ea15db83.setContent(html_731a658ee1614e1385bdc67b3d6095df);
+        
+
+        marker_600aab0dfd1d4587bb9c4e0b176ebf5b.bindPopup(popup_ffab2c53a2d74618ba5b7be2ea15db83)
+        ;
+
+        
+    
+    
+            var marker_38ae23fe31da4fcf9c396443a5a12c77 = L.marker(
+                [40.1835364, -75.2217608],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_b0c58e5d35c6429784833e3840622a41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_38ae23fe31da4fcf9c396443a5a12c77.setIcon(icon_b0c58e5d35c6429784833e3840622a41);
+        
+    
+        var popup_f7d2c4ba6ae245b9a8c0e475edb84638 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c9de99ab03041539c02c359900b6abd = $(`<div id="html_2c9de99ab03041539c02c359900b6abd" style="width: 100.0%; height: 100.0%;">NORRISTOWN RD & MCKEAN RD</div>`)[0];
+            popup_f7d2c4ba6ae245b9a8c0e475edb84638.setContent(html_2c9de99ab03041539c02c359900b6abd);
+        
+
+        marker_38ae23fe31da4fcf9c396443a5a12c77.bindPopup(popup_f7d2c4ba6ae245b9a8c0e475edb84638)
+        ;
+
+        
+    
+    
+            var marker_472d07566f39474abcea9b68d5385e22 = L.marker(
+                [40.251523, -75.329557],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_bd41b7df2e2e4f999970282ee91a46f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_472d07566f39474abcea9b68d5385e22.setIcon(icon_bd41b7df2e2e4f999970282ee91a46f4);
+        
+    
+        var popup_00ac1d6d27c84892bb5e26d0482848a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f042f85359124eda83868685e57ff44c = $(`<div id="html_f042f85359124eda83868685e57ff44c" style="width: 100.0%; height: 100.0%;">SUMNEYTOWN PIKE & RAMP RT63 TO I476</div>`)[0];
+            popup_00ac1d6d27c84892bb5e26d0482848a7.setContent(html_f042f85359124eda83868685e57ff44c);
+        
+
+        marker_472d07566f39474abcea9b68d5385e22.bindPopup(popup_00ac1d6d27c84892bb5e26d0482848a7)
+        ;
+
+        
+    
+    
+            var marker_c64cc21f9f8944f6b0b70438b630fbe6 = L.marker(
+                [40.1410919, -75.4101903],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_ea0c5dc9427e43f39cfe57ff30ed5663 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c64cc21f9f8944f6b0b70438b630fbe6.setIcon(icon_ea0c5dc9427e43f39cfe57ff30ed5663);
+        
+    
+        var popup_51e2aa7c244a408babe8bcdb548d2360 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7d91e60400e4b2ea20f17fdf6de5b0d = $(`<div id="html_b7d91e60400e4b2ea20f17fdf6de5b0d" style="width: 100.0%; height: 100.0%;">PARK AVE & WOODLAND AVE</div>`)[0];
+            popup_51e2aa7c244a408babe8bcdb548d2360.setContent(html_b7d91e60400e4b2ea20f17fdf6de5b0d);
+        
+
+        marker_c64cc21f9f8944f6b0b70438b630fbe6.bindPopup(popup_51e2aa7c244a408babe8bcdb548d2360)
+        ;
+
+        
+    
+    
+            var marker_c63296d96e934274bfaaaa323ff49ea9 = L.marker(
+                [40.1873139, -75.1846099],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_5912aa809ada4e8f917e247f718690da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c63296d96e934274bfaaaa323ff49ea9.setIcon(icon_5912aa809ada4e8f917e247f718690da);
+        
+    
+        var popup_3c88055a972b400ea8670a5825d50ef4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3c2b67df9c74396a81eb8d2baec2608 = $(`<div id="html_d3c2b67df9c74396a81eb8d2baec2608" style="width: 100.0%; height: 100.0%;">BUTLER PIKE & NESBITT RD</div>`)[0];
+            popup_3c88055a972b400ea8670a5825d50ef4.setContent(html_d3c2b67df9c74396a81eb8d2baec2608);
+        
+
+        marker_c63296d96e934274bfaaaa323ff49ea9.bindPopup(popup_3c88055a972b400ea8670a5825d50ef4)
+        ;
+
+        
+    
+    
+            var marker_79dc8e1cba2546b0a4d8d58ed63c28f8 = L.marker(
+                [40.1515666, -75.32302159999999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_3201fbe14244424ba2a14e2e4717fe4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_79dc8e1cba2546b0a4d8d58ed63c28f8.setIcon(icon_3201fbe14244424ba2a14e2e4717fe4e);
+        
+    
+        var popup_115564350e2043c18f185a3555db1050 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82546e06a80c4234baa99cd7e0acc811 = $(`<div id="html_82546e06a80c4234baa99cd7e0acc811" style="width: 100.0%; height: 100.0%;">ROLAND DR & STONEY CREEK RD</div>`)[0];
+            popup_115564350e2043c18f185a3555db1050.setContent(html_82546e06a80c4234baa99cd7e0acc811);
+        
+
+        marker_79dc8e1cba2546b0a4d8d58ed63c28f8.bindPopup(popup_115564350e2043c18f185a3555db1050)
+        ;
+
+        
+    
+    
+            var marker_c3b2040538d840e2ad695947ea661169 = L.marker(
+                [40.20077020000001, -75.3460505],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_657808e5ba4249709f15575be5ce0ce8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c3b2040538d840e2ad695947ea661169.setIcon(icon_657808e5ba4249709f15575be5ce0ce8);
+        
+    
+        var popup_b405c38507bd4877a6004bf53c9e941c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78be13ab5d8a438f99013c08b6852eea = $(`<div id="html_78be13ab5d8a438f99013c08b6852eea" style="width: 100.0%; height: 100.0%;">EXTENSION PENNSYLVANIA TPKE & BERKS RD UNDERPASS</div>`)[0];
+            popup_b405c38507bd4877a6004bf53c9e941c.setContent(html_78be13ab5d8a438f99013c08b6852eea);
+        
+
+        marker_c3b2040538d840e2ad695947ea661169.bindPopup(popup_b405c38507bd4877a6004bf53c9e941c)
+        ;
+
+        
+    
+    
+            var marker_b23a2f2bd39740e98368a451bfbefe9f = L.marker(
+                [40.2469315, -75.6439204],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_712e321f176246a380c4e6189578044c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b23a2f2bd39740e98368a451bfbefe9f.setIcon(icon_712e321f176246a380c4e6189578044c);
+        
+    
+        var popup_f01fa076da5c40f29f162ccbbeb0bc01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_856d9a65419f40dd82da11b014ba8ead = $(`<div id="html_856d9a65419f40dd82da11b014ba8ead" style="width: 100.0%; height: 100.0%;">CHESTNUT ST & N FRANKLIN ST</div>`)[0];
+            popup_f01fa076da5c40f29f162ccbbeb0bc01.setContent(html_856d9a65419f40dd82da11b014ba8ead);
+        
+
+        marker_b23a2f2bd39740e98368a451bfbefe9f.bindPopup(popup_f01fa076da5c40f29f162ccbbeb0bc01)
+        ;
+
+        
+    
+    
+            var marker_5d83cd207a214bb09df90184787da8b7 = L.marker(
+                [40.231601700000006, -75.2186547],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_761c0a5190654227849c0d671da78693 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5d83cd207a214bb09df90184787da8b7.setIcon(icon_761c0a5190654227849c0d671da78693);
+        
+    
+        var popup_ff1355bf21684ce49cd2da6ed6de736c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d960f477642741919ec5dcadbf354433 = $(`<div id="html_d960f477642741919ec5dcadbf354433" style="width: 100.0%; height: 100.0%;">HORSHAM RD & PHEASANT RUN</div>`)[0];
+            popup_ff1355bf21684ce49cd2da6ed6de736c.setContent(html_d960f477642741919ec5dcadbf354433);
+        
+
+        marker_5d83cd207a214bb09df90184787da8b7.bindPopup(popup_ff1355bf21684ce49cd2da6ed6de736c)
+        ;
+
+        
+    
+    
+            var marker_e00148e2f57241cb929af12f92ff54cf = L.marker(
+                [40.0203725, -75.3092584],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_fc90ed5d71a44a9091a6111b58ec8d44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e00148e2f57241cb929af12f92ff54cf.setIcon(icon_fc90ed5d71a44a9091a6111b58ec8d44);
+        
+    
+        var popup_8ad6c6a329cf44d391f621721c592b62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_932b40bb782d47aba6af25028e497438 = $(`<div id="html_932b40bb782d47aba6af25028e497438" style="width: 100.0%; height: 100.0%;">PENNSWOOD RD & W MONTGOMERY AVE</div>`)[0];
+            popup_8ad6c6a329cf44d391f621721c592b62.setContent(html_932b40bb782d47aba6af25028e497438);
+        
+
+        marker_e00148e2f57241cb929af12f92ff54cf.bindPopup(popup_8ad6c6a329cf44d391f621721c592b62)
+        ;
+
+        
+    
+    
+            var marker_84fc96d1a9ad462da783f2b4bb2ab76d = L.marker(
+                [40.115546200000004, -75.0534312],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_d26b495832b9416aa37d1d1ff601f886 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_84fc96d1a9ad462da783f2b4bb2ab76d.setIcon(icon_d26b495832b9416aa37d1d1ff601f886);
+        
+    
+        var popup_1cae6e7ddeea40cab638f42b3a5cedb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75362e51c6f2425cb3a225ce15faa421 = $(`<div id="html_75362e51c6f2425cb3a225ce15faa421" style="width: 100.0%; height: 100.0%;">HIGH RD & RED LION RD</div>`)[0];
+            popup_1cae6e7ddeea40cab638f42b3a5cedb8.setContent(html_75362e51c6f2425cb3a225ce15faa421);
+        
+
+        marker_84fc96d1a9ad462da783f2b4bb2ab76d.bindPopup(popup_1cae6e7ddeea40cab638f42b3a5cedb8)
+        ;
+
+        
+    
+    
+            var marker_9cddcdd2689142f5b1d819ae80261389 = L.marker(
+                [40.2465386, -75.6488196],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_8f7e1183a29a4b1492f835ed96104f91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9cddcdd2689142f5b1d819ae80261389.setIcon(icon_8f7e1183a29a4b1492f835ed96104f91);
+        
+    
+        var popup_22ee8d31a1244ef38b87a2c9ae8b3bfa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24d1154ecb554de8a0dd89596849e915 = $(`<div id="html_24d1154ecb554de8a0dd89596849e915" style="width: 100.0%; height: 100.0%;">KING ST & PENN ST</div>`)[0];
+            popup_22ee8d31a1244ef38b87a2c9ae8b3bfa.setContent(html_24d1154ecb554de8a0dd89596849e915);
+        
+
+        marker_9cddcdd2689142f5b1d819ae80261389.bindPopup(popup_22ee8d31a1244ef38b87a2c9ae8b3bfa)
+        ;
+
+        
+    
+    
+            var marker_60fe44f84f6441dcafe8900bbdc2bfe7 = L.marker(
+                [40.0220201, -75.24073620000001],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_7350761c63cc4641a9b4725ff6924c2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_60fe44f84f6441dcafe8900bbdc2bfe7.setIcon(icon_7350761c63cc4641a9b4725ff6924c2f);
+        
+    
+        var popup_1a17b43f23fd4cfeb41e12b8fc86c453 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75e07c80d4e84fb98c75c185ac50938b = $(`<div id="html_75e07c80d4e84fb98c75c185ac50938b" style="width: 100.0%; height: 100.0%;">HARVEST CIR & SMITH DR</div>`)[0];
+            popup_1a17b43f23fd4cfeb41e12b8fc86c453.setContent(html_75e07c80d4e84fb98c75c185ac50938b);
+        
+
+        marker_60fe44f84f6441dcafe8900bbdc2bfe7.bindPopup(popup_1a17b43f23fd4cfeb41e12b8fc86c453)
+        ;
+
+        
+    
+    
+            var marker_0afb838e0b714308ae819c5f27886852 = L.marker(
+                [40.012205, -75.274403],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_1069cd09c889462583a20b24f3d05eef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0afb838e0b714308ae819c5f27886852.setIcon(icon_1069cd09c889462583a20b24f3d05eef);
+        
+    
+        var popup_7769649dff5d4bd89a4419d599ac4a71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c77542105d0450684fd95930cdbff63 = $(`<div id="html_3c77542105d0450684fd95930cdbff63" style="width: 100.0%; height: 100.0%;">E MONTGOMERY AVE & CHERRY LN</div>`)[0];
+            popup_7769649dff5d4bd89a4419d599ac4a71.setContent(html_3c77542105d0450684fd95930cdbff63);
+        
+
+        marker_0afb838e0b714308ae819c5f27886852.bindPopup(popup_7769649dff5d4bd89a4419d599ac4a71)
+        ;
+
+        
+    
+    
+            var marker_0e142662ba8848569e9c302cdfc04ee5 = L.marker(
+                [40.3106761, -75.4307969],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_8d64727033724e60afcb9e53f77e59e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0e142662ba8848569e9c302cdfc04ee5.setIcon(icon_8d64727033724e60afcb9e53f77e59e2);
+        
+    
+        var popup_53b6dabed0bd4c30a163927e64043801 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73edc0b633e64238b7255cdf246de0f2 = $(`<div id="html_73edc0b633e64238b7255cdf246de0f2" style="width: 100.0%; height: 100.0%;">SUMNEYTOWN PIKE</div>`)[0];
+            popup_53b6dabed0bd4c30a163927e64043801.setContent(html_73edc0b633e64238b7255cdf246de0f2);
+        
+
+        marker_0e142662ba8848569e9c302cdfc04ee5.bindPopup(popup_53b6dabed0bd4c30a163927e64043801)
+        ;
+
+        
+    
+    
+            var marker_dd4c794e5b5947a1a45418a95da95469 = L.marker(
+                [40.0254057, -75.2577388],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_111f1c477bf643f5a61c09b204523493 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dd4c794e5b5947a1a45418a95da95469.setIcon(icon_111f1c477bf643f5a61c09b204523493);
+        
+    
+        var popup_68635e2c09ae45fb9f5e863e0398440e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a5f881357e045728c97edcb4577fa87 = $(`<div id="html_6a5f881357e045728c97edcb4577fa87" style="width: 100.0%; height: 100.0%;">HAGYS FORD RD & CONSHOHOCKEN STATE RD</div>`)[0];
+            popup_68635e2c09ae45fb9f5e863e0398440e.setContent(html_6a5f881357e045728c97edcb4577fa87);
+        
+
+        marker_dd4c794e5b5947a1a45418a95da95469.bindPopup(popup_68635e2c09ae45fb9f5e863e0398440e)
+        ;
+
+        
+    
+    
+            var marker_5253374f6d9947a48948aa47e08d5808 = L.marker(
+                [40.226482399999995, -75.328509],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_c49521c8aa8f497484b04a68c0a47826 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5253374f6d9947a48948aa47e08d5808.setIcon(icon_c49521c8aa8f497484b04a68c0a47826);
+        
+    
+        var popup_2b6db2d991cf42c5b16f30bf7aacc0ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e16ac326fad4035bd24abfa8de45dbd = $(`<div id="html_0e16ac326fad4035bd24abfa8de45dbd" style="width: 100.0%; height: 100.0%;">FLINTLOCK CIR & ANDERS RD</div>`)[0];
+            popup_2b6db2d991cf42c5b16f30bf7aacc0ad.setContent(html_0e16ac326fad4035bd24abfa8de45dbd);
+        
+
+        marker_5253374f6d9947a48948aa47e08d5808.bindPopup(popup_2b6db2d991cf42c5b16f30bf7aacc0ad)
+        ;
+
+        
+    
+    
+            var marker_9cec1b3d95bd4912b84f255b15c0bad1 = L.marker(
+                [40.214977399999995, -75.49971219999999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_42966b67127645309ebe024becef1b16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9cec1b3d95bd4912b84f255b15c0bad1.setIcon(icon_42966b67127645309ebe024becef1b16);
+        
+    
+        var popup_1c51b0037f64499bafd43a470e370e0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa7dd3db50bd4194821d44360982e838 = $(`<div id="html_aa7dd3db50bd4194821d44360982e838" style="width: 100.0%; height: 100.0%;">RIDGE PIKE & N TOWNSHIP LINE RD</div>`)[0];
+            popup_1c51b0037f64499bafd43a470e370e0b.setContent(html_aa7dd3db50bd4194821d44360982e838);
+        
+
+        marker_9cec1b3d95bd4912b84f255b15c0bad1.bindPopup(popup_1c51b0037f64499bafd43a470e370e0b)
+        ;
+
+        
+    
+    
+            var marker_9206a5312f9d48ae9152a33404a8ccbc = L.marker(
+                [40.1515666, -75.32302159999999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_e86b39550f91454f8c51061543604234 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9206a5312f9d48ae9152a33404a8ccbc.setIcon(icon_e86b39550f91454f8c51061543604234);
+        
+    
+        var popup_b29c46a0a4044d1b8834f91096c5f783 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ef55fd37f4a4281b1cb06602a1830be = $(`<div id="html_0ef55fd37f4a4281b1cb06602a1830be" style="width: 100.0%; height: 100.0%;">ROLAND DR & STONEY CREEK RD</div>`)[0];
+            popup_b29c46a0a4044d1b8834f91096c5f783.setContent(html_0ef55fd37f4a4281b1cb06602a1830be);
+        
+
+        marker_9206a5312f9d48ae9152a33404a8ccbc.bindPopup(popup_b29c46a0a4044d1b8834f91096c5f783)
+        ;
+
+        
+    
+    
+            var marker_10b57d61ab614cb2b0b58d81ad292308 = L.marker(
+                [40.121139, -75.38496059999999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_7ba78f71b5ac4759b69bcda9ce820d38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_10b57d61ab614cb2b0b58d81ad292308.setIcon(icon_7ba78f71b5ac4759b69bcda9ce820d38);
+        
+    
+        var popup_f8d492b3b3de4cebbf1244d2c2031937 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07a824110819484882e50312849cb052 = $(`<div id="html_07a824110819484882e50312849cb052" style="width: 100.0%; height: 100.0%;">RIVERSEDGE DR & S SCHUYLKILL AVE</div>`)[0];
+            popup_f8d492b3b3de4cebbf1244d2c2031937.setContent(html_07a824110819484882e50312849cb052);
+        
+
+        marker_10b57d61ab614cb2b0b58d81ad292308.bindPopup(popup_f8d492b3b3de4cebbf1244d2c2031937)
+        ;
+
+        
+    
+    
+            var marker_2e271462351648a993431d6437549dae = L.marker(
+                [40.1117737, -75.3369314],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_582fa631e0484b7599d5e1174f1a07da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e271462351648a993431d6437549dae.setIcon(icon_582fa631e0484b7599d5e1174f1a07da);
+        
+    
+        var popup_814eb2ab9ebd4018bb121a4e74aa39ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03e83f561319446bad972d56e7e3f16a = $(`<div id="html_03e83f561319446bad972d56e7e3f16a" style="width: 100.0%; height: 100.0%;">WALNUT ST & E MAIN ST</div>`)[0];
+            popup_814eb2ab9ebd4018bb121a4e74aa39ad.setContent(html_03e83f561319446bad972d56e7e3f16a);
+        
+
+        marker_2e271462351648a993431d6437549dae.bindPopup(popup_814eb2ab9ebd4018bb121a4e74aa39ad)
+        ;
+
+        
+    
+    
+            var marker_3571979dd1a44269b733dc650c3f0530 = L.marker(
+                [40.1526615, -75.1577285],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_90b554fa71d346568ee654fd8ec81e68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3571979dd1a44269b733dc650c3f0530.setIcon(icon_90b554fa71d346568ee654fd8ec81e68);
+        
+    
+        var popup_e60dbcc0c8844e4fbb4867b95ffcb2f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61bd5c897baf485186abd2ba2460f0b1 = $(`<div id="html_61bd5c897baf485186abd2ba2460f0b1" style="width: 100.0%; height: 100.0%;">DRESHERTOWN RD & NICOLE DR</div>`)[0];
+            popup_e60dbcc0c8844e4fbb4867b95ffcb2f9.setContent(html_61bd5c897baf485186abd2ba2460f0b1);
+        
+
+        marker_3571979dd1a44269b733dc650c3f0530.bindPopup(popup_e60dbcc0c8844e4fbb4867b95ffcb2f9)
+        ;
+
+        
+    
+    
+            var marker_1ee0ec8f8c314d5d8ed865160fbaa924 = L.marker(
+                [40.194295399999994, -75.4879719],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_6ea22866b0774fafa7f78256e35900e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1ee0ec8f8c314d5d8ed865160fbaa924.setIcon(icon_6ea22866b0774fafa7f78256e35900e3);
+        
+    
+        var popup_9884928a2ccb4a0f876f58544e16cd0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a34fbd3ad4c47629fb6983c66d06b0d = $(`<div id="html_8a34fbd3ad4c47629fb6983c66d06b0d" style="width: 100.0%; height: 100.0%;">7TH AVE & NEBORLEA WAY</div>`)[0];
+            popup_9884928a2ccb4a0f876f58544e16cd0c.setContent(html_8a34fbd3ad4c47629fb6983c66d06b0d);
+        
+
+        marker_1ee0ec8f8c314d5d8ed865160fbaa924.bindPopup(popup_9884928a2ccb4a0f876f58544e16cd0c)
+        ;
+
+        
+    
+    
+            var marker_aa564e1e7dbf463b9ba5dcde9af22c8d = L.marker(
+                [40.309710700000004, -75.5101999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_9b6331d2260b49c8b8311fa4bb6f52f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_aa564e1e7dbf463b9ba5dcde9af22c8d.setIcon(icon_9b6331d2260b49c8b8311fa4bb6f52f5);
+        
+    
+        var popup_2eb37d74c9c84d2a983b263348a51301 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ef678f72e474e6e919be95cc11f6d76 = $(`<div id="html_5ef678f72e474e6e919be95cc11f6d76" style="width: 100.0%; height: 100.0%;">DOGWOOD CT & DEAD END</div>`)[0];
+            popup_2eb37d74c9c84d2a983b263348a51301.setContent(html_5ef678f72e474e6e919be95cc11f6d76);
+        
+
+        marker_aa564e1e7dbf463b9ba5dcde9af22c8d.bindPopup(popup_2eb37d74c9c84d2a983b263348a51301)
+        ;
+
+        
+    
+    
+            var marker_3bcb4d85baaa4191b9dcb9e59225c224 = L.marker(
+                [40.2984343, -75.4803575],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_b84308d501e043c78fa79a995f5630f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3bcb4d85baaa4191b9dcb9e59225c224.setIcon(icon_b84308d501e043c78fa79a995f5630f4);
+        
+    
+        var popup_c73cd828ade24a4880cd8d9b0a65e0ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_038f152e4b274ece9ff035e4706b4964 = $(`<div id="html_038f152e4b274ece9ff035e4706b4964" style="width: 100.0%; height: 100.0%;">GRAVEL PIKE & AMY LN</div>`)[0];
+            popup_c73cd828ade24a4880cd8d9b0a65e0ad.setContent(html_038f152e4b274ece9ff035e4706b4964);
+        
+
+        marker_3bcb4d85baaa4191b9dcb9e59225c224.bindPopup(popup_c73cd828ade24a4880cd8d9b0a65e0ad)
+        ;
+
+        
+    
+    
+            var marker_e9d7de725de84b348461ef0a034d81f8 = L.marker(
+                [40.1082672, -75.30623259999999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_e0666ec76b50448e9cca6dca81011ce5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e9d7de725de84b348461ef0a034d81f8.setIcon(icon_e0666ec76b50448e9cca6dca81011ce5);
+        
+    
+        var popup_2dc1b6d223234c448d6965be1a59648d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95c04662fb134d68853e2bbb0a62eada = $(`<div id="html_95c04662fb134d68853e2bbb0a62eada" style="width: 100.0%; height: 100.0%;">EXTENSION PENNSYLVANIA TPKE & TOWNSHIP LINE RD UNDERPASS</div>`)[0];
+            popup_2dc1b6d223234c448d6965be1a59648d.setContent(html_95c04662fb134d68853e2bbb0a62eada);
+        
+
+        marker_e9d7de725de84b348461ef0a034d81f8.bindPopup(popup_2dc1b6d223234c448d6965be1a59648d)
+        ;
+
+        
+    
+    
+            var marker_425d84a96c454c95a61599238a766cf8 = L.marker(
+                [40.207266600000004, -75.2696729],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_ca26984894294d69aabe467f97be3fbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_425d84a96c454c95a61599238a766cf8.setIcon(icon_ca26984894294d69aabe467f97be3fbb);
+        
+    
+        var popup_3c20c22e022740df9f5618b791f68216 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_800ef5e50383494b918bed785b8cf605 = $(`<div id="html_800ef5e50383494b918bed785b8cf605" style="width: 100.0%; height: 100.0%;">ROYAL AVE & SUMNEYTOWN PIKE</div>`)[0];
+            popup_3c20c22e022740df9f5618b791f68216.setContent(html_800ef5e50383494b918bed785b8cf605);
+        
+
+        marker_425d84a96c454c95a61599238a766cf8.bindPopup(popup_3c20c22e022740df9f5618b791f68216)
+        ;
+
+        
+    
+    
+            var marker_eda58e8eb7fc41d9aa0bc5fe47d24d94 = L.marker(
+                [40.224047600000006, -75.70544740000001],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_74ec3d00655e4a76b4121e5947cab4ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eda58e8eb7fc41d9aa0bc5fe47d24d94.setIcon(icon_74ec3d00655e4a76b4121e5947cab4ec);
+        
+    
+        var popup_2cb77cd4a00949d19c0cabc9309d77cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a253cd1038484b1c8073abf6184f2981 = $(`<div id="html_a253cd1038484b1c8073abf6184f2981" style="width: 100.0%; height: 100.0%;">UNIONVILLE RD & SHENKEL RD</div>`)[0];
+            popup_2cb77cd4a00949d19c0cabc9309d77cb.setContent(html_a253cd1038484b1c8073abf6184f2981);
+        
+
+        marker_eda58e8eb7fc41d9aa0bc5fe47d24d94.bindPopup(popup_2cb77cd4a00949d19c0cabc9309d77cb)
+        ;
+
+        
+    
+    
+            var marker_1340d5d6696640a9aaadecb391f141e1 = L.marker(
+                [40.2483044, -75.6470058],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_8e17368f7c054fde94ffad078629e89c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1340d5d6696640a9aaadecb391f141e1.setIcon(icon_8e17368f7c054fde94ffad078629e89c);
+        
+    
+        var popup_a028c2a98caa404a9c2fa736f8515518 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0335d37ef37484bbcb75d279d1354a5 = $(`<div id="html_d0335d37ef37484bbcb75d279d1354a5" style="width: 100.0%; height: 100.0%;">WALNUT ST & N CHARLOTTE ST</div>`)[0];
+            popup_a028c2a98caa404a9c2fa736f8515518.setContent(html_d0335d37ef37484bbcb75d279d1354a5);
+        
+
+        marker_1340d5d6696640a9aaadecb391f141e1.bindPopup(popup_a028c2a98caa404a9c2fa736f8515518)
+        ;
+
+        
+    
+    
+            var marker_8084359ce36846e2969e0611da2e0b25 = L.marker(
+                [40.2513703, -75.4657098],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_6bc3472b68da45dfa7819fd3e6b9fcae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8084359ce36846e2969e0611da2e0b25.setIcon(icon_6bc3472b68da45dfa7819fd3e6b9fcae);
+        
+    
+        var popup_009f452fd6b74b928883361ac6bd3105 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0a4f63fd8b247a69abda7cba09347a2 = $(`<div id="html_e0a4f63fd8b247a69abda7cba09347a2" style="width: 100.0%; height: 100.0%;">PERKIOMEN AVE & 3RD ST</div>`)[0];
+            popup_009f452fd6b74b928883361ac6bd3105.setContent(html_e0a4f63fd8b247a69abda7cba09347a2);
+        
+
+        marker_8084359ce36846e2969e0611da2e0b25.bindPopup(popup_009f452fd6b74b928883361ac6bd3105)
+        ;
+
+        
+    
+    
+            var marker_73f4a3f3dfaa4fb7b6b094f91976f1fd = L.marker(
+                [40.123687, -75.13274100000001],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_f366c789e3354e5ea890247aeb4f78c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_73f4a3f3dfaa4fb7b6b094f91976f1fd.setIcon(icon_f366c789e3354e5ea890247aeb4f78c0);
+        
+    
+        var popup_48fd7fa2fbff40cf865f839eb44372b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfe9dc984f634a58b9a69641c69e4d92 = $(`<div id="html_cfe9dc984f634a58b9a69641c69e4d92" style="width: 100.0%; height: 100.0%;">EASTON RD & EAST AVE</div>`)[0];
+            popup_48fd7fa2fbff40cf865f839eb44372b0.setContent(html_cfe9dc984f634a58b9a69641c69e4d92);
+        
+
+        marker_73f4a3f3dfaa4fb7b6b094f91976f1fd.bindPopup(popup_48fd7fa2fbff40cf865f839eb44372b0)
+        ;
+
+        
+    
+    
+            var marker_e98c95d6755446a9a64f136c5633fc59 = L.marker(
+                [40.1200832, -75.3411193],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_2222ea8df1154ab49ae3c785a996af47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e98c95d6755446a9a64f136c5633fc59.setIcon(icon_2222ea8df1154ab49ae3c785a996af47);
+        
+    
+        var popup_7e33d23c4dff4cb8894702b944370e84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_199d04f0e19949a1a7679befa63a459a = $(`<div id="html_199d04f0e19949a1a7679befa63a459a" style="width: 100.0%; height: 100.0%;">SWEDE ST & E JACOBY ST</div>`)[0];
+            popup_7e33d23c4dff4cb8894702b944370e84.setContent(html_199d04f0e19949a1a7679befa63a459a);
+        
+
+        marker_e98c95d6755446a9a64f136c5633fc59.bindPopup(popup_7e33d23c4dff4cb8894702b944370e84)
+        ;
+
+        
+    
+    
+            var marker_b9874c20505846ec99191030fb2b48e8 = L.marker(
+                [40.0484369, -75.310395],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_0939200156114620bee1cf64de4d0818 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b9874c20505846ec99191030fb2b48e8.setIcon(icon_0939200156114620bee1cf64de4d0818);
+        
+    
+        var popup_2f4578847dae41578102114505d286e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb9dd46bf6814222b342908d90f15953 = $(`<div id="html_bb9dd46bf6814222b342908d90f15953" style="width: 100.0%; height: 100.0%;">ROSCOMMON RD & MORRIS AVE</div>`)[0];
+            popup_2f4578847dae41578102114505d286e4.setContent(html_bb9dd46bf6814222b342908d90f15953);
+        
+
+        marker_b9874c20505846ec99191030fb2b48e8.bindPopup(popup_2f4578847dae41578102114505d286e4)
+        ;
+
+        
+    
+    
+            var marker_f4158547c31c40ac8714a604cc6b336d = L.marker(
+                [40.167892200000004, -75.08072609999999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_f8a63390b9bc4be6a6c8ae1ec1b79b7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f4158547c31c40ac8714a604cc6b336d.setIcon(icon_f8a63390b9bc4be6a6c8ae1ec1b79b7c);
+        
+    
+        var popup_d3ee3dec074c410e93ef73c86fab8805 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bea45732cc64f05bbc48a8dab23edf7 = $(`<div id="html_7bea45732cc64f05bbc48a8dab23edf7" style="width: 100.0%; height: 100.0%;">EXTON RD & DAVISVILLE RD</div>`)[0];
+            popup_d3ee3dec074c410e93ef73c86fab8805.setContent(html_7bea45732cc64f05bbc48a8dab23edf7);
+        
+
+        marker_f4158547c31c40ac8714a604cc6b336d.bindPopup(popup_d3ee3dec074c410e93ef73c86fab8805)
+        ;
+
+        
+    
+    
+            var marker_fc9f137d4adc403dacc2281e9b54c277 = L.marker(
+                [40.132636299999994, -75.378327],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_66a89c9676c14007b02041a4fcfa259f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fc9f137d4adc403dacc2281e9b54c277.setIcon(icon_66a89c9676c14007b02041a4fcfa259f);
+        
+    
+        var popup_b51f6abab801480dbc450a0b1276cb5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a89ab9d807a4906a10db7efd231549c = $(`<div id="html_1a89ab9d807a4906a10db7efd231549c" style="width: 100.0%; height: 100.0%;">EGYPT RD & W MAIN ST</div>`)[0];
+            popup_b51f6abab801480dbc450a0b1276cb5a.setContent(html_1a89ab9d807a4906a10db7efd231549c);
+        
+
+        marker_fc9f137d4adc403dacc2281e9b54c277.bindPopup(popup_b51f6abab801480dbc450a0b1276cb5a)
+        ;
+
+        
+    
+    
+            var marker_cc309b6d202543168b158c4dc4437b69 = L.marker(
+                [40.0961719, -75.296142],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_319f6a6dce8c4dfb8b1c88cd39a2ac7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc309b6d202543168b158c4dc4437b69.setIcon(icon_319f6a6dce8c4dfb8b1c88cd39a2ac7e);
+        
+    
+        var popup_e6304f03ab674c03bef26f4f8306b994 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdf42b3f262f43c1b2b88ed178ec5047 = $(`<div id="html_cdf42b3f262f43c1b2b88ed178ec5047" style="width: 100.0%; height: 100.0%;">RIDGE PIKE & CHEMICAL RD</div>`)[0];
+            popup_e6304f03ab674c03bef26f4f8306b994.setContent(html_cdf42b3f262f43c1b2b88ed178ec5047);
+        
+
+        marker_cc309b6d202543168b158c4dc4437b69.bindPopup(popup_e6304f03ab674c03bef26f4f8306b994)
+        ;
+
+        
+    
+    
+            var marker_4f8af56213b442518cb54f4d0fb94bb7 = L.marker(
+                [40.062268100000004, -75.3053777],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_558f3ba844b540f090a81fde3307ccef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4f8af56213b442518cb54f4d0fb94bb7.setIcon(icon_558f3ba844b540f090a81fde3307ccef);
+        
+    
+        var popup_27b2266fa550442bb1a65eb6fe9d320e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4ea62a79cca4e3c8010d5a0b5876719 = $(`<div id="html_a4ea62a79cca4e3c8010d5a0b5876719" style="width: 100.0%; height: 100.0%;">CONSHOHOCKEN STATE RD & WESLEYS RUN</div>`)[0];
+            popup_27b2266fa550442bb1a65eb6fe9d320e.setContent(html_a4ea62a79cca4e3c8010d5a0b5876719);
+        
+
+        marker_4f8af56213b442518cb54f4d0fb94bb7.bindPopup(popup_27b2266fa550442bb1a65eb6fe9d320e)
+        ;
+
+        
+    
+    
+            var marker_1c9e17c499324a61bba8538ddf616333 = L.marker(
+                [40.120394700000006, -75.06656240000001],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_a01f025b4cd14bb095979871d8adf3e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1c9e17c499324a61bba8538ddf616333.setIcon(icon_a01f025b4cd14bb095979871d8adf3e5);
+        
+    
+        var popup_f144fb6abd244bd5a6c87ae775d4a0d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24c7df1226b24c75b35b773f62f88a17 = $(`<div id="html_24c7df1226b24c75b35b773f62f88a17" style="width: 100.0%; height: 100.0%;">HUNTINGDON PIKE & DUELL ST</div>`)[0];
+            popup_f144fb6abd244bd5a6c87ae775d4a0d9.setContent(html_24c7df1226b24c75b35b773f62f88a17);
+        
+
+        marker_1c9e17c499324a61bba8538ddf616333.bindPopup(popup_f144fb6abd244bd5a6c87ae775d4a0d9)
+        ;
+
+        
+    
+    
+            var marker_76f6b8093a184a7b9896f342b0613aba = L.marker(
+                [40.2775179, -75.2644686],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_78788885acca4b7e80c735417e02d640 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_76f6b8093a184a7b9896f342b0613aba.setIcon(icon_78788885acca4b7e80c735417e02d640);
+        
+    
+        var popup_c0357d3a07ff4eac975fac8871a5a36a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a78649cab1c4413aa8ff8dbe7d2a84b7 = $(`<div id="html_a78649cab1c4413aa8ff8dbe7d2a84b7" style="width: 100.0%; height: 100.0%;">VALLEY WOODS RD & BIRCHWOOD CT</div>`)[0];
+            popup_c0357d3a07ff4eac975fac8871a5a36a.setContent(html_a78649cab1c4413aa8ff8dbe7d2a84b7);
+        
+
+        marker_76f6b8093a184a7b9896f342b0613aba.bindPopup(popup_c0357d3a07ff4eac975fac8871a5a36a)
+        ;
+
+        
+    
+    
+            var marker_8f378ee936094a86b69f68530960bdc9 = L.marker(
+                [40.0219692, -75.3295156],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_4111f8499cd249d79e1e561a96536c5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8f378ee936094a86b69f68530960bdc9.setIcon(icon_4111f8499cd249d79e1e561a96536c5b);
+        
+    
+        var popup_c33aa69648d8417cbb1a10ac5f10e4ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71b3b70e5f1b43a0a8b9ba7611b8d312 = $(`<div id="html_71b3b70e5f1b43a0a8b9ba7611b8d312" style="width: 100.0%; height: 100.0%;">DAVID DR & S ROBERTS RD</div>`)[0];
+            popup_c33aa69648d8417cbb1a10ac5f10e4ee.setContent(html_71b3b70e5f1b43a0a8b9ba7611b8d312);
+        
+
+        marker_8f378ee936094a86b69f68530960bdc9.bindPopup(popup_c33aa69648d8417cbb1a10ac5f10e4ee)
+        ;
+
+        
+    
+    
+            var marker_b0302ac143bf4c6f95c540dfbdb6ad6b = L.marker(
+                [40.1330309, -75.3957287],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_4968dc7365b5458a8a0ba52e3434714e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b0302ac143bf4c6f95c540dfbdb6ad6b.setIcon(icon_4968dc7365b5458a8a0ba52e3434714e);
+        
+    
+        var popup_20117e072f28491a90eb48698e36c0ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_563f09928c4b4f4b8f6bd9826451c24e = $(`<div id="html_563f09928c4b4f4b8f6bd9826451c24e" style="width: 100.0%; height: 100.0%;">WILLOWBROOK DR</div>`)[0];
+            popup_20117e072f28491a90eb48698e36c0ae.setContent(html_563f09928c4b4f4b8f6bd9826451c24e);
+        
+
+        marker_b0302ac143bf4c6f95c540dfbdb6ad6b.bindPopup(popup_20117e072f28491a90eb48698e36c0ae)
+        ;
+
+        
+    
+    
+            var marker_61775a1672894271adc87f6d54b811db = L.marker(
+                [40.150710700000005, -75.0552739],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_4e5a4cd82e354982a1718e6bea7e8ebf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_61775a1672894271adc87f6d54b811db.setIcon(icon_4e5a4cd82e354982a1718e6bea7e8ebf);
+        
+    
+        var popup_1af724776f7b4eb09715d1a6230cb724 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2399363f7c21415b89a925fda9b2cadf = $(`<div id="html_2399363f7c21415b89a925fda9b2cadf" style="width: 100.0%; height: 100.0%;">COUNTY LINE RD & RR CROSSING</div>`)[0];
+            popup_1af724776f7b4eb09715d1a6230cb724.setContent(html_2399363f7c21415b89a925fda9b2cadf);
+        
+
+        marker_61775a1672894271adc87f6d54b811db.bindPopup(popup_1af724776f7b4eb09715d1a6230cb724)
+        ;
+
+        
+    
+    
+            var marker_da42b1ce2d434b22a274f6b6e7e0ee09 = L.marker(
+                [40.201142299999994, -75.4665197],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_ccd7e79d04d0415e8a32681e74e7d04e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_da42b1ce2d434b22a274f6b6e7e0ee09.setIcon(icon_ccd7e79d04d0415e8a32681e74e7d04e);
+        
+    
+        var popup_086e14ff60fe418483195688c6c4d32c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ec89bd5220c419493fc28e5c18e447c = $(`<div id="html_0ec89bd5220c419493fc28e5c18e447c" style="width: 100.0%; height: 100.0%;">E 3RD AVE</div>`)[0];
+            popup_086e14ff60fe418483195688c6c4d32c.setContent(html_0ec89bd5220c419493fc28e5c18e447c);
+        
+
+        marker_da42b1ce2d434b22a274f6b6e7e0ee09.bindPopup(popup_086e14ff60fe418483195688c6c4d32c)
+        ;
+
+        
+    
+    
+            var marker_30b00ef9623843308f3d05548de8e56d = L.marker(
+                [40.3077573, -75.3576657],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_950de2251b7d476d8bf4278237d827a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_30b00ef9623843308f3d05548de8e56d.setIcon(icon_950de2251b7d476d8bf4278237d827a0);
+        
+    
+        var popup_ecd411d40708450ca662744d00320d88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4e6031a945448c0989078b2feac9ead = $(`<div id="html_d4e6031a945448c0989078b2feac9ead" style="width: 100.0%; height: 100.0%;">ALLENTOWN RD & HARLEYSVILLE PIKE</div>`)[0];
+            popup_ecd411d40708450ca662744d00320d88.setContent(html_d4e6031a945448c0989078b2feac9ead);
+        
+
+        marker_30b00ef9623843308f3d05548de8e56d.bindPopup(popup_ecd411d40708450ca662744d00320d88)
+        ;
+
+        
+    
+    
+            var marker_cb732f351d07405097e06e8de476b2b6 = L.marker(
+                [40.1144365, -75.33805749999999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_1716c9d49a5246bba9bfb26c58980e14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cb732f351d07405097e06e8de476b2b6.setIcon(icon_1716c9d49a5246bba9bfb26c58980e14);
+        
+    
+        var popup_718374eb32a1442798f038b351e5ed04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_497066c91e4e475f8394ed0c03aceb37 = $(`<div id="html_497066c91e4e475f8394ed0c03aceb37" style="width: 100.0%; height: 100.0%;">ARCH ST & CLAY ALY</div>`)[0];
+            popup_718374eb32a1442798f038b351e5ed04.setContent(html_497066c91e4e475f8394ed0c03aceb37);
+        
+
+        marker_cb732f351d07405097e06e8de476b2b6.bindPopup(popup_718374eb32a1442798f038b351e5ed04)
+        ;
+
+        
+    
+    
+            var marker_dda64f19365a4418a3ef554107275df9 = L.marker(
+                [40.1295515, -75.3785172],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_c42e118754204a36baa040339f4b3730 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dda64f19365a4418a3ef554107275df9.setIcon(icon_c42e118754204a36baa040339f4b3730);
+        
+    
+        var popup_119c0f3fc58b416581336aea5e0ebb95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcfb421418ae4ccebb303a435af7d611 = $(`<div id="html_bcfb421418ae4ccebb303a435af7d611" style="width: 100.0%; height: 100.0%;">RT422  & RIVERVIEW BLVD UNDERPASS</div>`)[0];
+            popup_119c0f3fc58b416581336aea5e0ebb95.setContent(html_bcfb421418ae4ccebb303a435af7d611);
+        
+
+        marker_dda64f19365a4418a3ef554107275df9.bindPopup(popup_119c0f3fc58b416581336aea5e0ebb95)
+        ;
+
+        
+    
+    
+            var marker_7cf3120c10a04038b2466506c28b6810 = L.marker(
+                [40.1405049, -75.3108737],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_0e1ea566cc184f51b22fc9158266adef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7cf3120c10a04038b2466506c28b6810.setIcon(icon_0e1ea566cc184f51b22fc9158266adef);
+        
+    
+        var popup_8ca7af7b611242b6bb6c75b14019587e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09d08995a3d34e64a2e478ffbd795d9d = $(`<div id="html_09d08995a3d34e64a2e478ffbd795d9d" style="width: 100.0%; height: 100.0%;">GERMANTOWN PIKE & HANNAH AVE</div>`)[0];
+            popup_8ca7af7b611242b6bb6c75b14019587e.setContent(html_09d08995a3d34e64a2e478ffbd795d9d);
+        
+
+        marker_7cf3120c10a04038b2466506c28b6810.bindPopup(popup_8ca7af7b611242b6bb6c75b14019587e)
+        ;
+
+        
+    
+    
+            var marker_cc177615aef44f2fadd1d6f3b030f3a8 = L.marker(
+                [40.1330371, -75.40846309999999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_7e30ac0c96864e10ba834e2f568e19d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc177615aef44f2fadd1d6f3b030f3a8.setIcon(icon_7e30ac0c96864e10ba834e2f568e19d7);
+        
+    
+        var popup_13c4e9c47b5b4f9b9e0ec570b74fff7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb379f7039c84b2498ba545d4cf4f1b3 = $(`<div id="html_bb379f7039c84b2498ba545d4cf4f1b3" style="width: 100.0%; height: 100.0%;">SHANNONDELL DR & SHANNONDELL BLVD</div>`)[0];
+            popup_13c4e9c47b5b4f9b9e0ec570b74fff7f.setContent(html_bb379f7039c84b2498ba545d4cf4f1b3);
+        
+
+        marker_cc177615aef44f2fadd1d6f3b030f3a8.bindPopup(popup_13c4e9c47b5b4f9b9e0ec570b74fff7f)
+        ;
+
+        
+    
+    
+            var marker_e6c99cebd8d84d41bf12c901f7113f40 = L.marker(
+                [40.1082672, -75.30623259999999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_d9b061a0a0c24346b1d0e2f388b9349f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e6c99cebd8d84d41bf12c901f7113f40.setIcon(icon_d9b061a0a0c24346b1d0e2f388b9349f);
+        
+    
+        var popup_e1b617ac61d544c49538a36ba7d7a0de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c4b4a3fadc445e2967db91fb5f6bd70 = $(`<div id="html_3c4b4a3fadc445e2967db91fb5f6bd70" style="width: 100.0%; height: 100.0%;">EXTENSION PENNSYLVANIA TPKE & RAMP I276 EB TO I476 NB</div>`)[0];
+            popup_e1b617ac61d544c49538a36ba7d7a0de.setContent(html_3c4b4a3fadc445e2967db91fb5f6bd70);
+        
+
+        marker_e6c99cebd8d84d41bf12c901f7113f40.bindPopup(popup_e1b617ac61d544c49538a36ba7d7a0de)
+        ;
+
+        
+    
+    
+            var marker_d24285a1fec8480ba7589ad187f1af4a = L.marker(
+                [40.100611, -75.346396],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_954ab097c490443cb0e8d5caa7f6f10b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d24285a1fec8480ba7589ad187f1af4a.setIcon(icon_954ab097c490443cb0e8d5caa7f6f10b);
+        
+    
+        var popup_a843e93f35c84cd4be366f39987d7faf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3027dbf8d444393b13148a242742494 = $(`<div id="html_c3027dbf8d444393b13148a242742494" style="width: 100.0%; height: 100.0%;">BUSH ST & E 9TH ST</div>`)[0];
+            popup_a843e93f35c84cd4be366f39987d7faf.setContent(html_c3027dbf8d444393b13148a242742494);
+        
+
+        marker_d24285a1fec8480ba7589ad187f1af4a.bindPopup(popup_a843e93f35c84cd4be366f39987d7faf)
+        ;
+
+        
+    
+    
+            var marker_8846ece7f1ac47f49f93a87de4200fac = L.marker(
+                [40.108973999999996, -75.2138303],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_81734d12d05640168802e93c08b80c56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8846ece7f1ac47f49f93a87de4200fac.setIcon(icon_81734d12d05640168802e93c08b80c56);
+        
+    
+        var popup_38be3bcc9d1e4930b726c4e437ba7158 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8d38a1f12dd47b28c2be11da1075b2a = $(`<div id="html_d8d38a1f12dd47b28c2be11da1075b2a" style="width: 100.0%; height: 100.0%;">BETHLEHEM PIKE & SPRINGFIELD AVE</div>`)[0];
+            popup_38be3bcc9d1e4930b726c4e437ba7158.setContent(html_d8d38a1f12dd47b28c2be11da1075b2a);
+        
+
+        marker_8846ece7f1ac47f49f93a87de4200fac.bindPopup(popup_38be3bcc9d1e4930b726c4e437ba7158)
+        ;
+
+        
+    
+    
+            var marker_9ee18ab4fdb3499e81a132c9c6be6890 = L.marker(
+                [40.0875677, -75.40555909999999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_a3d56d8b91ba4949b5c224ebf3ff6755 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9ee18ab4fdb3499e81a132c9c6be6890.setIcon(icon_a3d56d8b91ba4949b5c224ebf3ff6755);
+        
+    
+        var popup_5a1ff472188b42029ed8438d3eeb4b8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2eeedb484614196b9df6fe45f204504 = $(`<div id="html_a2eeedb484614196b9df6fe45f204504" style="width: 100.0%; height: 100.0%;">N GULPH RD</div>`)[0];
+            popup_5a1ff472188b42029ed8438d3eeb4b8f.setContent(html_a2eeedb484614196b9df6fe45f204504);
+        
+
+        marker_9ee18ab4fdb3499e81a132c9c6be6890.bindPopup(popup_5a1ff472188b42029ed8438d3eeb4b8f)
+        ;
+
+        
+    
+    
+            var marker_ff149ceab9af4e908e0b8cbc9f956d2e = L.marker(
+                [40.0377528, -75.317595],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_5712cda5481e4a02b02ec2b621027e7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ff149ceab9af4e908e0b8cbc9f956d2e.setIcon(icon_5712cda5481e4a02b02ec2b621027e7b);
+        
+    
+        var popup_7e0ac8a8b1a745adbbc9b490c99d202c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c2548371f8240469797638e5e342933 = $(`<div id="html_7c2548371f8240469797638e5e342933" style="width: 100.0%; height: 100.0%;">ITHAN AVE & POND LN</div>`)[0];
+            popup_7e0ac8a8b1a745adbbc9b490c99d202c.setContent(html_7c2548371f8240469797638e5e342933);
+        
+
+        marker_ff149ceab9af4e908e0b8cbc9f956d2e.bindPopup(popup_7e0ac8a8b1a745adbbc9b490c99d202c)
+        ;
+
+        
+    
+    
+            var marker_efb9f981728040f0a8ab8514e33b0271 = L.marker(
+                [40.119432399999994, -75.1664773],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_0d6d59786e47436691989cdcddab284c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_efb9f981728040f0a8ab8514e33b0271.setIcon(icon_0d6d59786e47436691989cdcddab284c);
+        
+    
+        var popup_8839a308ed2a4cce8e29124a9594e02e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50b7c2c9c39d42c59a6410427a715a79 = $(`<div id="html_50b7c2c9c39d42c59a6410427a715a79" style="width: 100.0%; height: 100.0%;">LIMEKILN PIKE & BEECHWOOD AVE</div>`)[0];
+            popup_8839a308ed2a4cce8e29124a9594e02e.setContent(html_50b7c2c9c39d42c59a6410427a715a79);
+        
+
+        marker_efb9f981728040f0a8ab8514e33b0271.bindPopup(popup_8839a308ed2a4cce8e29124a9594e02e)
+        ;
+
+        
+    
+    
+            var marker_f83c5ac3ae0d48bba4816c9868e48977 = L.marker(
+                [40.2590414, -75.36417270000001],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_3fa24fcef79b41d7b5cb0ddd4d741b37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f83c5ac3ae0d48bba4816c9868e48977.setIcon(icon_3fa24fcef79b41d7b5cb0ddd4d741b37);
+        
+    
+        var popup_7195431fa7534e7192b394d8b192e5e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d17d111f9db345648af86171bed50a35 = $(`<div id="html_d17d111f9db345648af86171bed50a35" style="width: 100.0%; height: 100.0%;">MAIN ST & UPPER MAINLAND RD</div>`)[0];
+            popup_7195431fa7534e7192b394d8b192e5e2.setContent(html_d17d111f9db345648af86171bed50a35);
+        
+
+        marker_f83c5ac3ae0d48bba4816c9868e48977.bindPopup(popup_7195431fa7534e7192b394d8b192e5e2)
+        ;
+
+        
+    
+    
+            var marker_51b1a6263b5c404595d5a799340ae9e3 = L.marker(
+                [40.1339362, -75.3450564],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_18a5d982fd254a6faed7369c0e725eaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_51b1a6263b5c404595d5a799340ae9e3.setIcon(icon_18a5d982fd254a6faed7369c0e725eaf);
+        
+    
+        var popup_c79b2768bd9e4f829a37805eed47d1c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcf9091137694648a56bc4dcfc6c0031 = $(`<div id="html_bcf9091137694648a56bc4dcfc6c0031" style="width: 100.0%; height: 100.0%;">LOCUST ST & LAUREL DR</div>`)[0];
+            popup_c79b2768bd9e4f829a37805eed47d1c0.setContent(html_bcf9091137694648a56bc4dcfc6c0031);
+        
+
+        marker_51b1a6263b5c404595d5a799340ae9e3.bindPopup(popup_c79b2768bd9e4f829a37805eed47d1c0)
+        ;
+
+        
+    
+    
+            var marker_2086b180faa0461ba4f9d90d83fd325a = L.marker(
+                [40.029216399999996, -75.2840292],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_b1fae285a67a4fa9808c7cb78c512177 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2086b180faa0461ba4f9d90d83fd325a.setIcon(icon_b1fae285a67a4fa9808c7cb78c512177);
+        
+    
+        var popup_312fe42191d94a6cbcbcce5d437bf851 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_371d0f57f2b44526960c3b1415f60689 = $(`<div id="html_371d0f57f2b44526960c3b1415f60689" style="width: 100.0%; height: 100.0%;">GLENMOOR RD & MERION SQUARE RD</div>`)[0];
+            popup_312fe42191d94a6cbcbcce5d437bf851.setContent(html_371d0f57f2b44526960c3b1415f60689);
+        
+
+        marker_2086b180faa0461ba4f9d90d83fd325a.bindPopup(popup_312fe42191d94a6cbcbcce5d437bf851)
+        ;
+
+        
+    
+    
+            var marker_cedb0650105749ab847bc88fc52488d4 = L.marker(
+                [40.152502399999996, -75.2663117],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_a085be4d530a43669dfeaa9720e7a619 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cedb0650105749ab847bc88fc52488d4.setIcon(icon_a085be4d530a43669dfeaa9720e7a619);
+        
+    
+        var popup_a1b416ebdc6e4d49bce097e55d889712 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f71c724d61264196bc73388b3a6880e5 = $(`<div id="html_f71c724d61264196bc73388b3a6880e5" style="width: 100.0%; height: 100.0%;">SKIPPACK PIKE & PENLLYN BLUE BELL PIKE</div>`)[0];
+            popup_a1b416ebdc6e4d49bce097e55d889712.setContent(html_f71c724d61264196bc73388b3a6880e5);
+        
+
+        marker_cedb0650105749ab847bc88fc52488d4.bindPopup(popup_a1b416ebdc6e4d49bce097e55d889712)
+        ;
+
+        
+    
+    
+            var marker_7ace439da367449c99481530a6dfae7e = L.marker(
+                [40.3278047, -75.5580235],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_9915da1332064dc8bd8a31b390a67526 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7ace439da367449c99481530a6dfae7e.setIcon(icon_9915da1332064dc8bd8a31b390a67526);
+        
+    
+        var popup_d748a2ae15f744f092b119d7fb234ec7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ed3ca0ce53c4599beaa8f1a8154e60a = $(`<div id="html_6ed3ca0ce53c4599beaa8f1a8154e60a" style="width: 100.0%; height: 100.0%;">HOFFMANSVILLE RD & LAYFIELD RD</div>`)[0];
+            popup_d748a2ae15f744f092b119d7fb234ec7.setContent(html_6ed3ca0ce53c4599beaa8f1a8154e60a);
+        
+
+        marker_7ace439da367449c99481530a6dfae7e.bindPopup(popup_d748a2ae15f744f092b119d7fb234ec7)
+        ;
+
+        
+    
+    
+            var marker_1a57b4a3c40d45a39f18de2c45d2c0d9 = L.marker(
+                [40.008412, -75.289491],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_9c3ef974e6a94561a025ff330c453d86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1a57b4a3c40d45a39f18de2c45d2c0d9.setIcon(icon_9c3ef974e6a94561a025ff330c453d86);
+        
+    
+        var popup_a256b7471379457b99607b5329aec035 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4c8d1528aff47ddba7864f2225b9831 = $(`<div id="html_a4c8d1528aff47ddba7864f2225b9831" style="width: 100.0%; height: 100.0%;">COULTER AVE & ST GEORGES RD</div>`)[0];
+            popup_a256b7471379457b99607b5329aec035.setContent(html_a4c8d1528aff47ddba7864f2225b9831);
+        
+
+        marker_1a57b4a3c40d45a39f18de2c45d2c0d9.bindPopup(popup_a256b7471379457b99607b5329aec035)
+        ;
+
+        
+    
+    
+            var marker_ae504324d8f6420dbe96e695eb5180d4 = L.marker(
+                [40.3400721, -75.59170920000001],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_7ee1669fec124367ab3b5bec0179c4d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ae504324d8f6420dbe96e695eb5180d4.setIcon(icon_7ee1669fec124367ab3b5bec0179c4d8);
+        
+    
+        var popup_1b8f9974972c45afa29ccff9f0a0cfcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17a0310f7d0c4b41bac8abf1d7767f50 = $(`<div id="html_17a0310f7d0c4b41bac8abf1d7767f50" style="width: 100.0%; height: 100.0%;">KNOLL LN & DEAD END</div>`)[0];
+            popup_1b8f9974972c45afa29ccff9f0a0cfcc.setContent(html_17a0310f7d0c4b41bac8abf1d7767f50);
+        
+
+        marker_ae504324d8f6420dbe96e695eb5180d4.bindPopup(popup_1b8f9974972c45afa29ccff9f0a0cfcc)
+        ;
+
+        
+    
+    
+            var marker_118c890d79b9427ca311b01b35aa63b2 = L.marker(
+                [40.1218957, -75.1609168],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_f746613d5b204f579c6dcd54c152c2f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_118c890d79b9427ca311b01b35aa63b2.setIcon(icon_f746613d5b204f579c6dcd54c152c2f9);
+        
+    
+        var popup_da0569f0af1d4d6cb1b028a0c7f13740 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_661735eb12b24664987c29b99838ec77 = $(`<div id="html_661735eb12b24664987c29b99838ec77" style="width: 100.0%; height: 100.0%;">NORTH HILLS AVE & WOODROW AVE</div>`)[0];
+            popup_da0569f0af1d4d6cb1b028a0c7f13740.setContent(html_661735eb12b24664987c29b99838ec77);
+        
+
+        marker_118c890d79b9427ca311b01b35aa63b2.bindPopup(popup_da0569f0af1d4d6cb1b028a0c7f13740)
+        ;
+
+        
+    
+    
+            var marker_6906a01e29f14a53b6c495bc4adec44a = L.marker(
+                [40.025180999999996, -75.32571300000001],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_915aeccc2cce4890a40344f8b4267a2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6906a01e29f14a53b6c495bc4adec44a.setIcon(icon_915aeccc2cce4890a40344f8b4267a2c);
+        
+    
+        var popup_99b9b2a0c9a94fde9068def5304226ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9c1ece9bc864595b4732d1039446f57 = $(`<div id="html_d9c1ece9bc864595b4732d1039446f57" style="width: 100.0%; height: 100.0%;">LANCASTER AVE & MONTROSE AVE</div>`)[0];
+            popup_99b9b2a0c9a94fde9068def5304226ba.setContent(html_d9c1ece9bc864595b4732d1039446f57);
+        
+
+        marker_6906a01e29f14a53b6c495bc4adec44a.bindPopup(popup_99b9b2a0c9a94fde9068def5304226ba)
+        ;
+
+        
+    
+    
+            var marker_c0ef74ee1a8b4a6686ca3f2e090b80c5 = L.marker(
+                [40.10205560000001, -75.18904040000001],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_22f11af0946040c5829bab31f4511cc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c0ef74ee1a8b4a6686ca3f2e090b80c5.setIcon(icon_22f11af0946040c5829bab31f4511cc1);
+        
+    
+        var popup_9bfd481f9b1242de8932aff8e5b7263f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d27176181d7449f9a1a5f4dc3010ec2 = $(`<div id="html_7d27176181d7449f9a1a5f4dc3010ec2" style="width: 100.0%; height: 100.0%;">GYPSY LN & LANTERN LN</div>`)[0];
+            popup_9bfd481f9b1242de8932aff8e5b7263f.setContent(html_7d27176181d7449f9a1a5f4dc3010ec2);
+        
+
+        marker_c0ef74ee1a8b4a6686ca3f2e090b80c5.bindPopup(popup_9bfd481f9b1242de8932aff8e5b7263f)
+        ;
+
+        
+    
+    
+            var marker_eb9052eefea6423ba0afee429afa8b1f = L.marker(
+                [40.21536270000001, -75.67561740000001],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_266933b8dffd4d9e9966fe3f54336551 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eb9052eefea6423ba0afee429afa8b1f.setIcon(icon_266933b8dffd4d9e9966fe3f54336551);
+        
+    
+        var popup_ab6ad06d85374f28840cf02c5023edf8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1910012fd425434f9ec7821464cff807 = $(`<div id="html_1910012fd425434f9ec7821464cff807" style="width: 100.0%; height: 100.0%;">TEMPLE RD & SHEEP HILL RD</div>`)[0];
+            popup_ab6ad06d85374f28840cf02c5023edf8.setContent(html_1910012fd425434f9ec7821464cff807);
+        
+
+        marker_eb9052eefea6423ba0afee429afa8b1f.bindPopup(popup_ab6ad06d85374f28840cf02c5023edf8)
+        ;
+
+        
+    
+    
+            var marker_4e17e44b794943beb19273a797fc11ae = L.marker(
+                [40.1532684, -75.18955759999999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_3f72cf26d1ff466f8956a4141a96e6e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4e17e44b794943beb19273a797fc11ae.setIcon(icon_3f72cf26d1ff466f8956a4141a96e6e6);
+        
+    
+        var popup_44f3e0fe06484bb389adbb81d27c7352 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_423b06c90c6140a3add1e69dd5c34fc8 = $(`<div id="html_423b06c90c6140a3add1e69dd5c34fc8" style="width: 100.0%; height: 100.0%;">PENNSYLVANIA TPKE & SUSQUEHANNA RD UNDERPASS</div>`)[0];
+            popup_44f3e0fe06484bb389adbb81d27c7352.setContent(html_423b06c90c6140a3add1e69dd5c34fc8);
+        
+
+        marker_4e17e44b794943beb19273a797fc11ae.bindPopup(popup_44f3e0fe06484bb389adbb81d27c7352)
+        ;
+
+        
+    
+    
+            var marker_41db6ffa2b164c438459f72ce8c6a56c = L.marker(
+                [40.089411600000005, -75.175048],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_994f51831f8d4945a8fbc367dd690ad4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_41db6ffa2b164c438459f72ce8c6a56c.setIcon(icon_994f51831f8d4945a8fbc367dd690ad4);
+        
+    
+        var popup_487816f7ae764b0eb0127fb21c79c11e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2710ace1055640a686e191c5d214ea07 = $(`<div id="html_2710ace1055640a686e191c5d214ea07" style="width: 100.0%; height: 100.0%;">WAVERLY RD & MORGAN LN</div>`)[0];
+            popup_487816f7ae764b0eb0127fb21c79c11e.setContent(html_2710ace1055640a686e191c5d214ea07);
+        
+
+        marker_41db6ffa2b164c438459f72ce8c6a56c.bindPopup(popup_487816f7ae764b0eb0127fb21c79c11e)
+        ;
+
+        
+    
+    
+            var marker_7c1798963a8841b3b6b503d72c2cd42a = L.marker(
+                [40.1220852, -75.3810988],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_a5ba4a99860b4d978ca84056a920ca31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7c1798963a8841b3b6b503d72c2cd42a.setIcon(icon_a5ba4a99860b4d978ca84056a920ca31);
+        
+    
+        var popup_6bf7bc5b9825483e9c4cce9ab856c3db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bb8cdba219745f89c3fe8d604f8b6c1 = $(`<div id="html_9bb8cdba219745f89c3fe8d604f8b6c1" style="width: 100.0%; height: 100.0%;">WOODSTREAM DR & WESTOVER CLUB DR</div>`)[0];
+            popup_6bf7bc5b9825483e9c4cce9ab856c3db.setContent(html_9bb8cdba219745f89c3fe8d604f8b6c1);
+        
+
+        marker_7c1798963a8841b3b6b503d72c2cd42a.bindPopup(popup_6bf7bc5b9825483e9c4cce9ab856c3db)
+        ;
+
+        
+    
+    
+            var marker_471fbba545b74d728f2efcfec36d1716 = L.marker(
+                [40.15760039999999, -75.21403409999999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_265df6754c094d3f83b3ea9e4e9cc814 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_471fbba545b74d728f2efcfec36d1716.setIcon(icon_265df6754c094d3f83b3ea9e4e9cc814);
+        
+    
+        var popup_4dcf59379854486a92f91aa25d012e8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f8e47df8ea946e5afe4cb6273ae2185 = $(`<div id="html_4f8e47df8ea946e5afe4cb6273ae2185" style="width: 100.0%; height: 100.0%;">BETHLEHEM PIKE & LOCH ALSH AVE</div>`)[0];
+            popup_4dcf59379854486a92f91aa25d012e8e.setContent(html_4f8e47df8ea946e5afe4cb6273ae2185);
+        
+
+        marker_471fbba545b74d728f2efcfec36d1716.bindPopup(popup_4dcf59379854486a92f91aa25d012e8e)
+        ;
+
+        
+    
+    
+            var marker_54ddbbbb7798448fae8472b1fa8f9c99 = L.marker(
+                [40.311629499999995, -75.3310962],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_1e32e18941604980918511b1e1372176 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_54ddbbbb7798448fae8472b1fa8f9c99.setIcon(icon_1e32e18941604980918511b1e1372176);
+        
+    
+        var popup_dd217d2ad4e7438dbef11c4ff2d3e54a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2b85be6b9214a5caa2697e6bec07190 = $(`<div id="html_a2b85be6b9214a5caa2697e6bec07190" style="width: 100.0%; height: 100.0%;">SUMMIT ST & COLONIAL AVE</div>`)[0];
+            popup_dd217d2ad4e7438dbef11c4ff2d3e54a.setContent(html_a2b85be6b9214a5caa2697e6bec07190);
+        
+
+        marker_54ddbbbb7798448fae8472b1fa8f9c99.bindPopup(popup_dd217d2ad4e7438dbef11c4ff2d3e54a)
+        ;
+
+        
+    
+    
+            var marker_dce313f520144c33bd38928d7f921286 = L.marker(
+                [40.0926859, -75.1371067],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_26732e03898541e88c7f87145f893f68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dce313f520144c33bd38928d7f921286.setIcon(icon_26732e03898541e88c7f87145f893f68);
+        
+    
+        var popup_d2762cb236d94f26b93c3f51fa768bbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5219479a2c4b4da1bdb325a8bc76df0f = $(`<div id="html_5219479a2c4b4da1bdb325a8bc76df0f" style="width: 100.0%; height: 100.0%;">WEST AVE & GREENWOOD AVE</div>`)[0];
+            popup_d2762cb236d94f26b93c3f51fa768bbb.setContent(html_5219479a2c4b4da1bdb325a8bc76df0f);
+        
+
+        marker_dce313f520144c33bd38928d7f921286.bindPopup(popup_d2762cb236d94f26b93c3f51fa768bbb)
+        ;
+
+        
+    
+    
+            var marker_de7fe06da8484bd58544f2c1911bb201 = L.marker(
+                [40.172739, -75.29996729999999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_b200f33e50c94f81b9b64b7ce1d1a280 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_de7fe06da8484bd58544f2c1911bb201.setIcon(icon_b200f33e50c94f81b9b64b7ce1d1a280);
+        
+    
+        var popup_975973ea49b94399bddf110d167a4f22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f7c64a06d0c4f2cba7850ff2ed12861 = $(`<div id="html_3f7c64a06d0c4f2cba7850ff2ed12861" style="width: 100.0%; height: 100.0%;">WHITPAIN HLS & SKIPPACK PIKE</div>`)[0];
+            popup_975973ea49b94399bddf110d167a4f22.setContent(html_3f7c64a06d0c4f2cba7850ff2ed12861);
+        
+
+        marker_de7fe06da8484bd58544f2c1911bb201.bindPopup(popup_975973ea49b94399bddf110d167a4f22)
+        ;
+
+        
+    
+    
+            var marker_238f0d75f9c0417ebc86c6c39613179f = L.marker(
+                [40.1128563, -75.4239126],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_f1b59ce79bca4ce8b0d2f10f25f075da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_238f0d75f9c0417ebc86c6c39613179f.setIcon(icon_f1b59ce79bca4ce8b0d2f10f25f075da);
+        
+    
+        var popup_1381b92ccd594a41b5f75029d306a942 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a6dde2d037f46ceb68f1281b76df7d0 = $(`<div id="html_3a6dde2d037f46ceb68f1281b76df7d0" style="width: 100.0%; height: 100.0%;">REID DR & WOODLAND LN</div>`)[0];
+            popup_1381b92ccd594a41b5f75029d306a942.setContent(html_3a6dde2d037f46ceb68f1281b76df7d0);
+        
+
+        marker_238f0d75f9c0417ebc86c6c39613179f.bindPopup(popup_1381b92ccd594a41b5f75029d306a942)
+        ;
+
+        
+    
+    
+            var marker_6baf55a4468f402d9434a671aa34bbe5 = L.marker(
+                [40.240233399999994, -75.2446059],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_937cea93dffc49c3b45c58d920ac48c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6baf55a4468f402d9434a671aa34bbe5.setIcon(icon_937cea93dffc49c3b45c58d920ac48c8);
+        
+    
+        var popup_b88148ea68404d51a0e28f65a4bf9f45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ce31c5989574ea7bb775d9d44d50620 = $(`<div id="html_1ce31c5989574ea7bb775d9d44d50620" style="width: 100.0%; height: 100.0%;">NORTH WALES RD & HARBOB LN</div>`)[0];
+            popup_b88148ea68404d51a0e28f65a4bf9f45.setContent(html_1ce31c5989574ea7bb775d9d44d50620);
+        
+
+        marker_6baf55a4468f402d9434a671aa34bbe5.bindPopup(popup_b88148ea68404d51a0e28f65a4bf9f45)
+        ;
+
+        
+    
+    
+            var marker_78a3b2817d89438989e29a00ed016cfb = L.marker(
+                [40.262132, -75.3684071],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_e6d1ef0b97b74dbcb910a4efe50d3139 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_78a3b2817d89438989e29a00ed016cfb.setIcon(icon_e6d1ef0b97b74dbcb910a4efe50d3139);
+        
+    
+        var popup_2138ce64cb8541ae8e1eb967a06af672 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8d06d4b6e94485ea8fd8a708c76c03a = $(`<div id="html_d8d06d4b6e94485ea8fd8a708c76c03a" style="width: 100.0%; height: 100.0%;">RUTH CT & MAIN ST</div>`)[0];
+            popup_2138ce64cb8541ae8e1eb967a06af672.setContent(html_d8d06d4b6e94485ea8fd8a708c76c03a);
+        
+
+        marker_78a3b2817d89438989e29a00ed016cfb.bindPopup(popup_2138ce64cb8541ae8e1eb967a06af672)
+        ;
+
+        
+    
+    
+            var marker_a0f53a477ae74d328508e558a3947c3f = L.marker(
+                [40.143951200000004, -75.12148690000001],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_6a6b4a8af7054942808d79afab6a91a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a0f53a477ae74d328508e558a3947c3f.setIcon(icon_6a6b4a8af7054942808d79afab6a91a9);
+        
+    
+        var popup_5ece935588d64c57887418abb58daae4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87424ca1f1644da4a00aae5ae34c34d2 = $(`<div id="html_87424ca1f1644da4a00aae5ae34c34d2" style="width: 100.0%; height: 100.0%;">MORELAND RD & ALLISON RD</div>`)[0];
+            popup_5ece935588d64c57887418abb58daae4.setContent(html_87424ca1f1644da4a00aae5ae34c34d2);
+        
+
+        marker_a0f53a477ae74d328508e558a3947c3f.bindPopup(popup_5ece935588d64c57887418abb58daae4)
+        ;
+
+        
+    
+    
+            var marker_da1b3560199b4053adee44949a5e410c = L.marker(
+                [40.270121200000006, -75.38282459999999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_5054a6933a1848ffa77f9b4f0002eb07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_da1b3560199b4053adee44949a5e410c.setIcon(icon_5054a6933a1848ffa77f9b4f0002eb07);
+        
+    
+        var popup_e3f1ab7d3f01498aa1c58933e739c6b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36e3d06dec924eaab432de210d6d1e0e = $(`<div id="html_36e3d06dec924eaab432de210d6d1e0e" style="width: 100.0%; height: 100.0%;">OAK DR & MOYER RD</div>`)[0];
+            popup_e3f1ab7d3f01498aa1c58933e739c6b0.setContent(html_36e3d06dec924eaab432de210d6d1e0e);
+        
+
+        marker_da1b3560199b4053adee44949a5e410c.bindPopup(popup_e3f1ab7d3f01498aa1c58933e739c6b0)
+        ;
+
+        
+    
+    
+            var marker_8b14ae4d5b92452dadc385367ad77ba6 = L.marker(
+                [40.0254801, -75.3265114],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_8c0c6a1bd6ff4e209beaca716b95395a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8b14ae4d5b92452dadc385367ad77ba6.setIcon(icon_8c0c6a1bd6ff4e209beaca716b95395a);
+        
+    
+        var popup_da1b0f20b9714484b032e7aba2bb2d72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f881ed46c244981896c723b09c34edc = $(`<div id="html_8f881ed46c244981896c723b09c34edc" style="width: 100.0%; height: 100.0%;">LANCASTER AVE</div>`)[0];
+            popup_da1b0f20b9714484b032e7aba2bb2d72.setContent(html_8f881ed46c244981896c723b09c34edc);
+        
+
+        marker_8b14ae4d5b92452dadc385367ad77ba6.bindPopup(popup_da1b0f20b9714484b032e7aba2bb2d72)
+        ;
+
+        
+    
+    
+            var marker_5a23425fe99b4c26808e9c60efd28d28 = L.marker(
+                [40.274698, -75.641699],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_b0e62f99283542d3a1ccdb3a7256531b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5a23425fe99b4c26808e9c60efd28d28.setIcon(icon_b0e62f99283542d3a1ccdb3a7256531b);
+        
+    
+        var popup_0cafd294005e4f4b93b84a41ddb0b994 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f6c7900d5e44fa4942cf6d8868b0405 = $(`<div id="html_8f6c7900d5e44fa4942cf6d8868b0405" style="width: 100.0%; height: 100.0%;">FARMINGTON AVE & IRWIN PL</div>`)[0];
+            popup_0cafd294005e4f4b93b84a41ddb0b994.setContent(html_8f6c7900d5e44fa4942cf6d8868b0405);
+        
+
+        marker_5a23425fe99b4c26808e9c60efd28d28.bindPopup(popup_0cafd294005e4f4b93b84a41ddb0b994)
+        ;
+
+        
+    
+    
+            var marker_c0b6cb8186ef440cbde7de966e6e715f = L.marker(
+                [40.288355700000004, -75.37853740000001],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_7b54925edb504ea8bcc30cd844f8dfa8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c0b6cb8186ef440cbde7de966e6e715f.setIcon(icon_7b54925edb504ea8bcc30cd844f8dfa8);
+        
+    
+        var popup_ceee4bb5c4ff4ad4b86430834a2bc588 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbfaeac5199c4b1f93475b8640e62fef = $(`<div id="html_dbfaeac5199c4b1f93475b8640e62fef" style="width: 100.0%; height: 100.0%;">MAPLE AVE & YODER RD</div>`)[0];
+            popup_ceee4bb5c4ff4ad4b86430834a2bc588.setContent(html_dbfaeac5199c4b1f93475b8640e62fef);
+        
+
+        marker_c0b6cb8186ef440cbde7de966e6e715f.bindPopup(popup_ceee4bb5c4ff4ad4b86430834a2bc588)
+        ;
+
+        
+    
+    
+            var marker_ee0f0193d30e4f33be7e1d48794074a3 = L.marker(
+                [40.1715776, -75.1277691],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_a11040cee59e46cf89c11bc40c7c91ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ee0f0193d30e4f33be7e1d48794074a3.setIcon(icon_a11040cee59e46cf89c11bc40c7c91ab);
+        
+    
+        var popup_21882adba6564ee2bbea16f2428c7905 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3523b068e98a4ff1ab07f7ec611436c9 = $(`<div id="html_3523b068e98a4ff1ab07f7ec611436c9" style="width: 100.0%; height: 100.0%;">BLAIR MILL RD & EASTON RD</div>`)[0];
+            popup_21882adba6564ee2bbea16f2428c7905.setContent(html_3523b068e98a4ff1ab07f7ec611436c9);
+        
+
+        marker_ee0f0193d30e4f33be7e1d48794074a3.bindPopup(popup_21882adba6564ee2bbea16f2428c7905)
+        ;
+
+        
+    
+    
+            var marker_6ae52b9968c34be0ac77703a40805a9a = L.marker(
+                [40.2976814, -75.6479437],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_f8b839c3091c4812b24c02f072889ea2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6ae52b9968c34be0ac77703a40805a9a.setIcon(icon_f8b839c3091c4812b24c02f072889ea2);
+        
+    
+        var popup_d9b459bea888418b90d5781e374c53f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_840e33588aea4e11ae1c015e6a7663b1 = $(`<div id="html_840e33588aea4e11ae1c015e6a7663b1" style="width: 100.0%; height: 100.0%;">FARMINGTON AVE & EVANS RD</div>`)[0];
+            popup_d9b459bea888418b90d5781e374c53f1.setContent(html_840e33588aea4e11ae1c015e6a7663b1);
+        
+
+        marker_6ae52b9968c34be0ac77703a40805a9a.bindPopup(popup_d9b459bea888418b90d5781e374c53f1)
+        ;
+
+        
+    
+    
+            var marker_f6c0b5e6cbfc406b9a3186c6cfeec4f7 = L.marker(
+                [40.1379211, -75.4306993],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_396da930bb5c44f5bce8145360361fe6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f6c0b5e6cbfc406b9a3186c6cfeec4f7.setIcon(icon_396da930bb5c44f5bce8145360361fe6);
+        
+    
+        var popup_0861dcea80394d729f5206cea28c96f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa4ad02fbefa4f07824905a83722a155 = $(`<div id="html_aa4ad02fbefa4f07824905a83722a155" style="width: 100.0%; height: 100.0%;">FEATHERBED LN & PINETOWN RD</div>`)[0];
+            popup_0861dcea80394d729f5206cea28c96f5.setContent(html_aa4ad02fbefa4f07824905a83722a155);
+        
+
+        marker_f6c0b5e6cbfc406b9a3186c6cfeec4f7.bindPopup(popup_0861dcea80394d729f5206cea28c96f5)
+        ;
+
+        
+    
+    
+            var marker_55b395775cd943ff8331acc46c4dab13 = L.marker(
+                [40.24779229999999, -75.62243149999999],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_4d320c96d04748ad9eab20dfdc74b7c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_55b395775cd943ff8331acc46c4dab13.setIcon(icon_4d320c96d04748ad9eab20dfdc74b7c5);
+        
+    
+        var popup_c330586cae6749759c5867582eafe0ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_752e53365f1e429d9d1971e9886bf7c8 = $(`<div id="html_752e53365f1e429d9d1971e9886bf7c8" style="width: 100.0%; height: 100.0%;">PRICE ST & JACKSON ST</div>`)[0];
+            popup_c330586cae6749759c5867582eafe0ba.setContent(html_752e53365f1e429d9d1971e9886bf7c8);
+        
+
+        marker_55b395775cd943ff8331acc46c4dab13.bindPopup(popup_c330586cae6749759c5867582eafe0ba)
+        ;
+
+        
+    
+    
+            var marker_9d0ee9c84197468087da97102d0d40ce = L.marker(
+                [40.124106700000006, -75.2174217],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_f3260573316a4ca0afb53e07f9450190 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9d0ee9c84197468087da97102d0d40ce.setIcon(icon_f3260573316a4ca0afb53e07f9450190);
+        
+    
+        var popup_588a96536efc46e9baf9024f7740cd04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fc11eec709948029c4af27c8dded8c2 = $(`<div id="html_1fc11eec709948029c4af27c8dded8c2" style="width: 100.0%; height: 100.0%;">BETHLEHEM PIKE & MATHERS LN</div>`)[0];
+            popup_588a96536efc46e9baf9024f7740cd04.setContent(html_1fc11eec709948029c4af27c8dded8c2);
+        
+
+        marker_9d0ee9c84197468087da97102d0d40ce.bindPopup(popup_588a96536efc46e9baf9024f7740cd04)
+        ;
+
+        
+    
+    
+            var marker_bdda5cabc38b4e74bcade35d1387babc = L.marker(
+                [40.235408899999996, -75.2401008],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_949f7789c12945e093a675f7e5abd09e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bdda5cabc38b4e74bcade35d1387babc.setIcon(icon_949f7789c12945e093a675f7e5abd09e);
+        
+    
+        var popup_efcb84b124794d8dbfe01dd410fd3e3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68be34d1c39a46fa82df9b508b87ae37 = $(`<div id="html_68be34d1c39a46fa82df9b508b87ae37" style="width: 100.0%; height: 100.0%;">RT202 PKWY OVERPASS & BETHLEHEM PIKE</div>`)[0];
+            popup_efcb84b124794d8dbfe01dd410fd3e3d.setContent(html_68be34d1c39a46fa82df9b508b87ae37);
+        
+
+        marker_bdda5cabc38b4e74bcade35d1387babc.bindPopup(popup_efcb84b124794d8dbfe01dd410fd3e3d)
+        ;
+
+        
+    
+    
+            var marker_eee4ffbee8bc4e9faaea012adbd3b343 = L.marker(
+                [40.2394356, -75.2362381],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_da0fe73dcb06406e8e87f014d5f27744 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eee4ffbee8bc4e9faaea012adbd3b343.setIcon(icon_da0fe73dcb06406e8e87f014d5f27744);
+        
+    
+        var popup_53154592fe4f4d26bc71a03e424c8f04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37b89a3fb0e74948a94b5e4d96c214a7 = $(`<div id="html_37b89a3fb0e74948a94b5e4d96c214a7" style="width: 100.0%; height: 100.0%;">YERGER RD & S RYANFORD RD</div>`)[0];
+            popup_53154592fe4f4d26bc71a03e424c8f04.setContent(html_37b89a3fb0e74948a94b5e4d96c214a7);
+        
+
+        marker_eee4ffbee8bc4e9faaea012adbd3b343.bindPopup(popup_53154592fe4f4d26bc71a03e424c8f04)
+        ;
+
+        
+    
+    
+            var marker_d6edf78ce44c4d7db9f47ca6b1b337df = L.marker(
+                [40.248349600000005, -75.27703050000001],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_f3cdd557fa434e01ab7f01fc19179f52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d6edf78ce44c4d7db9f47ca6b1b337df.setIcon(icon_f3cdd557fa434e01ab7f01fc19179f52);
+        
+    
+        var popup_0aad9d188078430290ad37048888cf29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c53871e534874672983f2ff37314ca1a = $(`<div id="html_c53871e534874672983f2ff37314ca1a" style="width: 100.0%; height: 100.0%;">BROAD ST & W 9TH ST</div>`)[0];
+            popup_0aad9d188078430290ad37048888cf29.setContent(html_c53871e534874672983f2ff37314ca1a);
+        
+
+        marker_d6edf78ce44c4d7db9f47ca6b1b337df.bindPopup(popup_0aad9d188078430290ad37048888cf29)
+        ;
+
+        
+    
+    
+            var marker_6f88d4e8e0314f89b407f846e3b18026 = L.marker(
+                [40.1764559, -75.5290663],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_6733fad0cc1e4576a92986e3783ec736 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6f88d4e8e0314f89b407f846e3b18026.setIcon(icon_6733fad0cc1e4576a92986e3783ec736);
+        
+    
+        var popup_adee69ed899d4b0780235f34f9fee1e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f5de1295a214acab274d8b9c25c32c1 = $(`<div id="html_5f5de1295a214acab274d8b9c25c32c1" style="width: 100.0%; height: 100.0%;">NUTMEG CT & CROSSHILL RD</div>`)[0];
+            popup_adee69ed899d4b0780235f34f9fee1e1.setContent(html_5f5de1295a214acab274d8b9c25c32c1);
+        
+
+        marker_6f88d4e8e0314f89b407f846e3b18026.bindPopup(popup_adee69ed899d4b0780235f34f9fee1e1)
+        ;
+
+        
+    
+    
+            var marker_c9dc8126ca5a49c6a5c0e4b9aa990da5 = L.marker(
+                [40.2903299, -75.3675755],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_ea163f2019c742b7b5aa54bfb9ae651d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c9dc8126ca5a49c6a5c0e4b9aa990da5.setIcon(icon_ea163f2019c742b7b5aa54bfb9ae651d);
+        
+    
+        var popup_bcbfd471d329492ab39d00815bbddf18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10ff13164fa74dd38b49535356836847 = $(`<div id="html_10ff13164fa74dd38b49535356836847" style="width: 100.0%; height: 100.0%;">MAPLEWOOD DR & SCHOOLHOUSE RD</div>`)[0];
+            popup_bcbfd471d329492ab39d00815bbddf18.setContent(html_10ff13164fa74dd38b49535356836847);
+        
+
+        marker_c9dc8126ca5a49c6a5c0e4b9aa990da5.bindPopup(popup_bcbfd471d329492ab39d00815bbddf18)
+        ;
+
+        
+    
+    
+            var marker_702fb0122b144aa4a915474165648c12 = L.marker(
+                [40.0997844, -75.302575],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_aafcf18ee67148fda8db8525351e60b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_702fb0122b144aa4a915474165648c12.setIcon(icon_aafcf18ee67148fda8db8525351e60b9);
+        
+    
+        var popup_b8589b222e9943e8b2fa142c5dcf00bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21364252166a444fa794a8214381c1d8 = $(`<div id="html_21364252166a444fa794a8214381c1d8" style="width: 100.0%; height: 100.0%;">RIDGE PIKE & ALAN WOOD RD</div>`)[0];
+            popup_b8589b222e9943e8b2fa142c5dcf00bb.setContent(html_21364252166a444fa794a8214381c1d8);
+        
+
+        marker_702fb0122b144aa4a915474165648c12.bindPopup(popup_b8589b222e9943e8b2fa142c5dcf00bb)
+        ;
+
+        
+    
+    
+            var marker_ccd3748f8bb74682bb062236235c9dda = L.marker(
+                [40.235373100000004, -75.2247509],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_cc9f46e7b9184b79a59137108b01611b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ccd3748f8bb74682bb062236235c9dda.setIcon(icon_cc9f46e7b9184b79a59137108b01611b);
+        
+    
+        var popup_42de105ccc4c4ab7a2f36b93bb86c101 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df0b5167d6de49e99bd1e675661e14f7 = $(`<div id="html_df0b5167d6de49e99bd1e675661e14f7" style="width: 100.0%; height: 100.0%;">STUMP RD & HORSHAM RD</div>`)[0];
+            popup_42de105ccc4c4ab7a2f36b93bb86c101.setContent(html_df0b5167d6de49e99bd1e675661e14f7);
+        
+
+        marker_ccd3748f8bb74682bb062236235c9dda.bindPopup(popup_42de105ccc4c4ab7a2f36b93bb86c101)
+        ;
+
+        
+    
+    
+            var marker_1ff597ad949847d991d015bb5b429473 = L.marker(
+                [40.28902670000001, -75.3995896],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_0ee8df4bad5d480793507fb55f2bb3ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1ff597ad949847d991d015bb5b429473.setIcon(icon_0ee8df4bad5d480793507fb55f2bb3ec);
+        
+    
+        var popup_25cb2c8a995a49d99c2fe8ad4e99db6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_caaf55186a714ff6bfde3ba2611959da = $(`<div id="html_caaf55186a714ff6bfde3ba2611959da" style="width: 100.0%; height: 100.0%;">MAIN ST & OLD SUMNEYTOWN PIKE</div>`)[0];
+            popup_25cb2c8a995a49d99c2fe8ad4e99db6c.setContent(html_caaf55186a714ff6bfde3ba2611959da);
+        
+
+        marker_1ff597ad949847d991d015bb5b429473.bindPopup(popup_25cb2c8a995a49d99c2fe8ad4e99db6c)
+        ;
+
+        
+    
+    
+            var marker_a5572dfabcc24fcebb1faee7d051d632 = L.marker(
+                [40.0946197, -75.3628559],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_5c7b4fd0379340a4af1e100361fe154e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a5572dfabcc24fcebb1faee7d051d632.setIcon(icon_5c7b4fd0379340a4af1e100361fe154e);
+        
+    
+        var popup_16ee4dfb8055478eafae4f2a4a8b0d70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99f1e65e8d9f4959a89d7f80a319cc84 = $(`<div id="html_99f1e65e8d9f4959a89d7f80a319cc84" style="width: 100.0%; height: 100.0%;">DEKALB PIKE & S HENDERSON RD</div>`)[0];
+            popup_16ee4dfb8055478eafae4f2a4a8b0d70.setContent(html_99f1e65e8d9f4959a89d7f80a319cc84);
+        
+
+        marker_a5572dfabcc24fcebb1faee7d051d632.bindPopup(popup_16ee4dfb8055478eafae4f2a4a8b0d70)
+        ;
+
+        
+    
+    
+            var marker_bb50ed0d712a4eebbf67937f57ff7102 = L.marker(
+                [40.2424327, -75.2828545],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_c3cce380f9af463386132fc7245169fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bb50ed0d712a4eebbf67937f57ff7102.setIcon(icon_c3cce380f9af463386132fc7245169fb);
+        
+    
+        var popup_608c00852cc24f28b6e255b0219ee509 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6956b38f1c4846e3807338db6ed4b2d2 = $(`<div id="html_6956b38f1c4846e3807338db6ed4b2d2" style="width: 100.0%; height: 100.0%;">BROAD ST & HUDSON ALY</div>`)[0];
+            popup_608c00852cc24f28b6e255b0219ee509.setContent(html_6956b38f1c4846e3807338db6ed4b2d2);
+        
+
+        marker_bb50ed0d712a4eebbf67937f57ff7102.bindPopup(popup_608c00852cc24f28b6e255b0219ee509)
+        ;
+
+        
+    
+    
+            var marker_186ba368653b4121b5243e64e20bcf2d = L.marker(
+                [40.087543, -75.1813636],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_15957d8e39564cf780b5e0a2a35d5496 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_186ba368653b4121b5243e64e20bcf2d.setIcon(icon_15957d8e39564cf780b5e0a2a35d5496);
+        
+    
+        var popup_c504537857e1435287063e2768fb21be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14c685fcc11a49dd85a63f1ee681b033 = $(`<div id="html_14c685fcc11a49dd85a63f1ee681b033" style="width: 100.0%; height: 100.0%;">CHELTENHAM AVE & PLEASANT AVE</div>`)[0];
+            popup_c504537857e1435287063e2768fb21be.setContent(html_14c685fcc11a49dd85a63f1ee681b033);
+        
+
+        marker_186ba368653b4121b5243e64e20bcf2d.bindPopup(popup_c504537857e1435287063e2768fb21be)
+        ;
+
+        
+    
+    
+            var marker_bfd580027b3e4f53b8359330d323b9d0 = L.marker(
+                [40.1863514, -75.11569509999998],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_ddf54ba5a74541e3bc99ad8cd8838237 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bfd580027b3e4f53b8359330d323b9d0.setIcon(icon_ddf54ba5a74541e3bc99ad8cd8838237);
+        
+    
+        var popup_e66c0bf99b3b4d58b8dbce4ef3fd5986 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_acb969257d174e529002bf87374356de = $(`<div id="html_acb969257d174e529002bf87374356de" style="width: 100.0%; height: 100.0%;">BENDER RD & CRESTVIEW RD</div>`)[0];
+            popup_e66c0bf99b3b4d58b8dbce4ef3fd5986.setContent(html_acb969257d174e529002bf87374356de);
+        
+
+        marker_bfd580027b3e4f53b8359330d323b9d0.bindPopup(popup_e66c0bf99b3b4d58b8dbce4ef3fd5986)
+        ;
+
+        
+    
+    
+            var marker_8ea2895593e44cc99b2f281c11f82098 = L.marker(
+                [40.010279700000005, -75.29578690000001],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_7eb2eeef6de9429ea9fb0b7446e70d6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8ea2895593e44cc99b2f281c11f82098.setIcon(icon_7eb2eeef6de9429ea9fb0b7446e70d6a);
+        
+    
+        var popup_203dd310132d4ad08c8c643ec8913091 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca8a7625992949f1a15736594bfe9a76 = $(`<div id="html_ca8a7625992949f1a15736594bfe9a76" style="width: 100.0%; height: 100.0%;">HOLLAND AVE & W LANCASTER AVE</div>`)[0];
+            popup_203dd310132d4ad08c8c643ec8913091.setContent(html_ca8a7625992949f1a15736594bfe9a76);
+        
+
+        marker_8ea2895593e44cc99b2f281c11f82098.bindPopup(popup_203dd310132d4ad08c8c643ec8913091)
+        ;
+
+        
+    
+    
+            var marker_93d7048cf6664c72b7ec8dddd2803685 = L.marker(
+                [40.078615299999996, -75.14722840000002],
+                {}
+            ).addTo(feature_group_59152534b4c149baa03e8e20baaa1985);
+        
+    
+            var icon_371de859ab9740548d4526ce7a62a0c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_93d7048cf6664c72b7ec8dddd2803685.setIcon(icon_371de859ab9740548d4526ce7a62a0c9);
+        
+    
+        var popup_c531f3c5e84b41ca933d07afa2004fe8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_036923ad08be43f2bf1ef3fe047bdd1b = $(`<div id="html_036923ad08be43f2bf1ef3fe047bdd1b" style="width: 100.0%; height: 100.0%;">WASHINGTON LN & ASHBOURNE RD</div>`)[0];
+            popup_c531f3c5e84b41ca933d07afa2004fe8.setContent(html_036923ad08be43f2bf1ef3fe047bdd1b);
+        
+
+        marker_93d7048cf6664c72b7ec8dddd2803685.bindPopup(popup_c531f3c5e84b41ca933d07afa2004fe8)
+        ;
+
+        
+    
+    
+            var layer_control_e7da46c86e7b4812963aa7f88f685510 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_5b0ace00ba0545268a6e4838ea25f0c5,
+                },
+                overlays :  {
+                    "TrafficCall" : feature_group_59152534b4c149baa03e8e20baaa1985,
+                },
+            };
+            L.control.layers(
+                layer_control_e7da46c86e7b4812963aa7f88f685510.base_layers,
+                layer_control_e7da46c86e7b4812963aa7f88f685510.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_b0e5d1198aae49b291d8a140fbf5322b);
+        
+</script>
